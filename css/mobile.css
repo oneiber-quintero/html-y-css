@@ -1,0 +1,39 @@
+@media (max-width: 1024px) {
+  .contaniner {
+    margin: auto;
+  }
+  .products{
+    max-height: 100px;
+  }
+  
+  .beneficios-img {
+    width: calc(100% - 40px);
+  }
+  
+}
+@media (max-width: 768px) {
+
+  .products{
+    max-height: 200px;
+  }
+}
+@media (max-width: 600px) {
+
+  .products{
+    display: inherit;
+    height: auto;
+    max-height: initial;
+    padding: initial;
+  }
+  .product{
+    margin-top: auto;
+  }
+  .main_section{
+    padding: 4%;
+  }
+  .beneficios, .mentions{
+    display: inherit;
+  }
+
+
+}
